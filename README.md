@@ -100,7 +100,7 @@ The `tb_top` module serves as the testbench for the 4-bit counter with overflow 
 - `counter`: 4-bit output representing the counter value.
 - `overflow`: Overflow signal.
 
-## Testbench Structure
+## Testbench Structure (tb_top.sv)
 
 The testbench consists of the following components:
 
