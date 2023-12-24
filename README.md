@@ -1,6 +1,6 @@
 # Formal Verification for 4 bit counter with overflow
 
-This repository contains system verilog files for a counter, for the assertions to verify the module and a testbench module that combines everything. I will explain every file one by one. 
+This repository contains SystemVerilog files for a counter, assertion properties for module verification, and a comprehensive testbench module that brings everything together. Each file has a specific purpose and contributes to the functionality and verification of the counter module.
 
 # 4-Bit Counter with Overflow (counter.sv)
 
