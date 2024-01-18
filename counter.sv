@@ -14,16 +14,13 @@ begin
         overflow <= 0;
     end
     else begin
-        //set overflow to 1 if counter is 15 and set counter back to 0 again
-        if (counter == 4'b1111) begin
-            counter <= 0;
+        counter <= counter + 1;
+        //set overflow to 1 if counter is 15n
+        if (counter == 4'b1111)
             overflow <= 1;
-        end
-        //increment counter by 1 if counter is not 15 and overflow is 0
-        else begin
-            counter <= counter + 1;
+        //overflow is 0
+        else 
             overflow <= 0;
-        end
     end
 end
 
